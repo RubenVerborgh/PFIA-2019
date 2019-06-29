@@ -23,24 +23,24 @@ blockquote :not(:last-child) {
   font-style: italic;
 }
 
-.slide.intro blockquote {
+.slide.focus blockquote {
   margin-top: 1.5em;
 }
 
-.slide.intro blockquote p:not(:last-child) {
+.slide.focus blockquote p:not(:last-child) {
   color: var(--accent);
   font-size: 1.25em;
   line-height: 1.3;
 }
 
-.slide.intro > p {
+.slide.focus > p {
   color: var(--accent);
   font-weight: bold;
   font-size: 1.5em;
   line-height: 1.3;
 }
 
-.slide.intro > p:first-child {
+.slide.focus > p:first-child {
   margin-top: 2.5em;
 }
 
